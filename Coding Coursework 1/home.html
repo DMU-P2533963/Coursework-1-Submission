@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+   <meta name="viewport" content = "width=device-width, initial-scale=1.0" />  <!-- This html allows the website to scale properly on mobile devices. -->
+    <meta charset="utf-8">
+    <title></title>
+
+<link rel="stylesheet" href="CSS\style.css">  <!-- This html allows the home.html file to be linked to the style.css file for styling the html. -->
+
+
+
+<div class="section">
+
+  <h1>mid90s</h1>
+  <h2><a href="cast.html">cast</a></h2>
+  <p></p>  <!-- This div "section" is the main container that holds the first part of the home page. It is used to group together all the different elements for the background video header and fit them properly onto the page.-->
+<div class="video-container">  <!-- this div allows the video itself to be sized however needed. -->
+
+
+
+  <video autoplay loop muted>  <!-- The video element tells html that a video is being inserted. the autoplay tag allows the video to automatically play when the page is opened. The loop tag allows the video to play again straight away once finished. The muted tag makes the video play with no sound.  -->
+ <!-- "source" tells the page where the video file is stored so it can be located. -->
+
+    <source src="Video\Mid90s _ Official Trailer HD _ A24.mp4" type="video/mp4">  <!-- Using "copy project path" the necessary file needs inserting after the "source"
+    you need 3 different file formates to acommodate different browsers and need to specify the "mp4","webm" or "ogg" after each one. -->
+
+    <source src="Video\Mid90s _ Official Trailer HD _ A24.ogg" type="video/ogg">
+
+    <source src="Video\Mid90s _ Official Trailer HD _ A24.webm" type="video/webm">
+
+  </video>
+</div>  <!-- closing div for video container -->
+</div>  <!-- closing div for section -->
+<div class="synopsisimage">  <!-- This div is for the image above my synopsis. It allows me to locate and style it in "style.css" -->
+ <img src="Image\Mid-90s-Style-GQ-10182018_3x2.jpg" alt="synimage"> <!-- <img src=> allows the page to know an image element has been added. Like the video element. Using "copy project path" on the chosen image file then pasting it after the command tells the page where it is located. -->
+</div>
+
+<div class="synopsis"> <!-- This div allows me to style the synopsis below the image by locating it through "style.css" -->
+<p>Mid90s is a 2018 American coming-of-age comedy-drama film written and directed by Jonah Hill, it takes a group of skaters in Los Angeles and puts them through the trails of life skating in the 90's.
+It demonstrates the key aspect to adulthood at a young age brilliantly and pays homage to the 90's skate scene perfectly.</p>
+<!-- <p> allows me to insert a paragraph element. Having this inside the div will allow me to style it individually when in the css using .synopsis p{} -->
+</div>
+<div class="trailer"> <!-- This div is the container for the trailer allowing me to style it in style.css -->
+<video controls width= 100% loop muted poster="Image\mi90s-cast.jpg">  <!-- The video element tells html that a video is being inserted. The "width 100%" means the width will cover 100% of the div its inside of. The loop meas the video will play gain once its ended. The poster will add a thumbnail onto the video that will dissapear when played. It is important to paste the project path of the image being used. -->
+
+  <source src="Video\2 second video.mp4" type="video/mp4"><!-- Using "copy project path" the necessary file needs inserting after the "source"
+  you need 3 different file formates to acommodate different browsers and need to specify the "mp4","webm" or "ogg" after each one. -->
+
+  <source src="Video\2 Second Video.ogg" type="video/ogg">
+
+  <source src="Video\2 second video.webm" type="video/webm">
+
+    Sorry, your browser does not support this video format.
+
+</video>  <!-- closing video element -->
+
+</div>  <!-- closing trailer div -->
+
+
+
+
+
+
+
+
+
+
+
+  <body>
+
+<div class="footer">  <!-- this div section allows me to style the footer in style.css and holds all the contents inside. -->
+<footer>mid90s</footer>  <!-- this is the text inside the footer -->
+<div class="anchor">  <!-- This is the div that allows me to style the <p> in style.css unsing ".anchor p{}" -->
+
+  <p>To view the <a href="https://www.youtube.com/watch?v=wSJJtqoprFI&t=111s">trailer</a> in full, follow the link</p>
+</div>  <!-- closer for anchor div -->
+</div>   <!-- closer for "footer" div -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

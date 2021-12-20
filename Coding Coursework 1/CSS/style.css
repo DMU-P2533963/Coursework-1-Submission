@@ -1,0 +1,220 @@
+*{
+
+  margin: 0px;
+  padding: 0;             /* this html section is the scaling of the whole home page allowing the header video to fit in full. This is due to the 0 margin and 0 padding given. */
+
+}
+
+
+.cast{ /* This div stops the text from repositioning outside of the page. */
+
+
+}
+.section{
+position: relative; /* This allows the element to be repositioned in relation to where it was originally using the "top, bottom, left and right" tags. */
+width: 100%; /* This allows the div to fill the full width of the page */
+height: 1000px; /* This allows height of the div to be shortened or lengthened */
+display: flex; /* This allows for the div height and width to be adjusted without compressing the image reolution */
+align-items: center; /* this aligns the div to the center of the page */
+justify-content: center; /* This aligns the flexible properties to the centre of the page */
+overflow: hidden; /* This hides anything that overflows the page, stopping it from getting larger */
+}
+
+.section h1 {
+text-align: center; /* This aligns the items to the centre of the page */
+font-size: 15rem; /* This allows me to adjust the font size accordingly */
+color: white; /* This changes the color to any available color in css. In this case, white. */
+z-index: 1; /* This allows the text to be infront of the video like a layering system */
+position: relative; /* This allows the element to be repositioned in relation to where it was originally using the "top, bottom, left and right" tags. */
+bottom: 200px;
+left: -20px;
+
+}
+
+.video-container{
+position: absolute;  /* this allows me to position the video in relation to the body of the page, therefore in the center. */
+max-width: 100%;  /* This makes the width of the video 100% to match the div section it is inside of. */
+}
+
+.section h2{
+z-index: 1; /* This allows the text to be infront of the video like a layering system */
+text-align: center; /* This aligns the items to the centre of the page */
+font-size: 8rem; /* This allows me to adjust the font size accordingly */
+color: white; /* This changes the color to any available color in css. In this case, white. */
+padding: 50px;  /* I used padding and margin to helps position the text better */
+margin: 200px;
+position: absolute;  /* This allos me to position the heading in relation to the other heading. I used the top and bottom attributes to do this. */
+bottom: 10px;
+right: 630px;
+}
+.section h2 a:hover{  /* The hover attribute means an underline is shown below when hovered over. */
+text-decoration: underline;
+
+
+}
+.section h2 a{
+color: white; /* This changes the color to any available color in css. In this case, white. */
+
+}
+
+
+}
+.sectionvideo{
+  position: relative; /* This allows the element to be repositioned in relation to where it was originally using the "top, bottom, left and right" tags. */
+  left: 300px;
+  width: 100%
+ border: 2px black solid;  /* this styles the image with a black boarder, 2 pixels in width, black and solid */
+}
+.synopsis p{
+margin: 250px;  /* This puts space between the box the synopsis is in and the borders of the page */
+background-color: lightgrey;  /* Allows a lightgray background to the div */
+position: relative; /* This allows the element to be repositioned in relation to where it was originally using the "top, bottom, left and right" tags. */
+bottom: 50px;
+font-size: 4rem; /* This allows me to adjust the font size accordingly */
+color: white; /* This changes the color to any available color in css. In this case, white. */
+padding: 20px;  /* Creates space between the text and the border of the div */
+border: 2px black solid; /* this styles the image with a black boarder, 2 pixels in width, black and solid */
+}
+
+.synopsisimage{
+  flex-basis: 23%;  /* This specifies what the initial legnth of the image was so the software knows what to change the size from. */
+  margin: 20px;  /* this allows for space betweem the image and the border of the page  */
+  justify-content: center;  /* This aligns the flexible properties to the centre of the page */
+}
+.synopsisimage img{
+  width: 1500px;  /* This sets the width to any pixel size I choose */
+  height: 1000px;  /* This sets the height to any pixel height i choose */
+  border: 2px black solid; /* this styles the image with a black boarder, 2 pixels in width, black and solid */
+  max-width: 100%;  /* This allows me to set a max width as the image was originally too large for the page. */
+}
+
+.trailer{
+position: relative;
+left: 280px; /* This allows the element to be repositioned in relation to where it was originally using the "top, bottom, left and right" tags. */
+bottom: 100px;
+width: 70%;  /* Allows for the video to fit onto the page as it was originally too large. */
+
+}
+body{
+  background-color: darkgrey;  /* Creates a grey background for the whole body of the page */
+}
+.footer{
+  font-size: 3rem;  /* Allows me to control the font size */
+  background-color: darkslategrey;  /* Allows me to change the background color */
+  text-align: center;  /* Makes the text move to the center of the element */
+  color: white;  /* Changes the text color to white in this instance */
+
+}
+.sectioncast h2{
+  z-index: 1; /* This allows the text to be infront of the video like a layering system */
+  text-align: center; /* Makes the text move to the center of the element */
+  font-size: 8rem; /* Allows me to control the font size */
+  color: white; /* Changes the text color to white in this instance */
+  padding: 50px; /* Creates space between the text and the border of the div */
+  margin-left: 200px;  /* creates space between the left hand side of the div and the border of the page */
+  margin-right:200px;  /* creates space between the right hand side of the div and the border of the page */
+  position: relative; /* This allows the element to be repositioned in relation to where it was originally using the "top, bottom, left and right" tags. */
+  left: 10px;
+
+
+
+}
+
+.casttitle h1{
+  text-align: center;  /* Text aligns with center of the div */
+  font-size: 8rem;  /* This allows me to control the font size accordingly */
+  color: white;  /* WThis changes the text colour to in this case, white */
+  margin: 15px;  /* creates a 15 pixel space between the element and the page border */
+
+background-color: darkslategray;
+
+}
+
+.sectioncast h2 a:hover{
+text-decoration: underline; /* The hover attribute means an underline is shown below when hovered over. */
+color: white;
+}
+.sectioncast h2 a{
+  color: white; /* This changes the color to any available color in css. In this case, white. */
+  background-color: darkslategray;  /* This changes the background color to darkslategray in this instance */
+}
+
+.castone{
+display: flex; /* This allows for the div height and width to be adjusted without compressing the image reolution */
+flex-flow: row wrap;  /* places all elements in the div in a row */
+}
+
+
+.sunimage img{
+width: 500px;  /* allows me to control the width of the image */
+height: 500px;  /* allows me to control the height of the image */
+border: 2px black solid;  /* allows me to control the size, color and state of the border */
+flex-basis: 23%;  /* This specifies what the initial legnth of the image was so the software knows what to change the size from. */
+margin: 20px;  /* this allows for space betweem the image and the border of the page  */
+justify-content: center; /* This aligns the flexible properties to the centre of the page */
+}
+
+.textbox1{
+margin-left: 600px;  /* allows 600 pixels between the left of the page and the div */
+position: relative; /* This allows the element to be repositioned in relation to where it was originally using the "top, bottom, left and right" tags. */
+bottom: 500px;  /* allows 500 pixels between the div and its last position */
+
+}
+.textbox1 p{
+  color: white; /* This changes the color to any available color in css. In this case, white. */
+  font-size: 2.5rem; /* This allows me to control the font size accordingly */
+  border: 2px black solid; /* allows me to control the size, color and state of the border */
+  padding: 5px; /* Creates space between the text and the border of the div */
+  margin-right: 20px; /* allows 20 pixels between the right of the page and the div */
+background-color: darkslategray; /* This changes the background color to darkslategray in this instance */
+}
+.audiobox{
+position: relative; /* This allows the element to be repositioned in relation to where it was originally using the "top, bottom, left and right" tags. */
+bottom: 450px; /* allows 450 pixels between the div and its last position */
+margin-left: 650px; /* allows 650 pixels between the left of the page and the div */
+}
+
+
+
+
+.casttwo{
+display: flex; /* This allows for the div height and width to be adjusted without compressing the image reolution */
+flex-flow: row wrap;  /* places all elements in the div in a row */
+
+}
+.jonahimage{
+flex-basis: 23%; /* This specifies what the initial legnth of the image was so the software knows what to change the size from. */
+margin: 20px;  /* this allows for space betweem the image and the border of the page  */
+justify-content: center; /* This aligns the flexible properties to the centre of the page */
+}
+
+.jonahimage img{
+width: 500px; /* allows me to control the width of the image */
+height: 500px; /* allows me to control the height of the image */
+border: 2px black solid; /* allows me to control the size, color and state of the border */
+}
+
+.textbox2{
+margin-left: 600px; /* allows 600 pixels between the left of the page and the div */
+position: relative;  /* This allows the element to be repositioned in relation to where it was originally using the "top, bottom, left and right" tags. */
+bottom: 500px; /* allows 500 pixels between the div and its last position */
+}
+.textbox2 p{
+  color: white; /* This changes the color to any available color in css. In this case, white. */
+  font-size: 2.3rem; /* This allows me to control the font size accordingly */
+  border: 2px black solid; /* allows me to control the size, color and state of the border */
+  margin-right: 20px; /* allows 20 pixels between the right of the page and the div */
+  padding: 5px; /* Creates space between the text and the border of the div */
+  background-color: darkslategray; /* This changes the background color to darkslategray in this instance */
+}
+.audiobox2{
+position: relative; /* This allows the element to be repositioned in relation to where it was originally using the "top, bottom, left and right" tags. */
+bottom: 450px; /* allows 450 pixels between the div and its last position */
+margin-left: 650px; /* allows 650 pixels between the left of the page and the div */
+}
+.footer2{
+text-align: center; /* Makes the text move to the center of the element */
+background-color: darkslategray; /* Allows me to change the background color */
+color: white; /* Changes the text color to white in this instance */
+font-size: 3rem; /* Allows me to control the font size */
+}
